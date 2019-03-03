@@ -13,6 +13,7 @@ class App extends React.Component {
             <div>
                 <Button active={this.state.active} click={this.handleClick} />
                 {this.state.active && <Clock />}
+                {console.log("chuju")}
             </div>
         )
     }
